@@ -1,15 +1,21 @@
+
 var mini = true;
 
-function toggleSidebar() {
-  if (mini) {
+function toggleSidebar() 
+{
+  if (mini) 
+  {
     console.log("opening sidebar");
     document.getElementById("mySidebar").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
     this.mini = false;
-  } else {
+  } 
+  else 
+  
+  {
     console.log("closing sidebar");
-    document.getElementById("mySidebar").style.width = "85px";
-    document.getElementById("main").style.marginLeft = "85px";
+    document.getElementById("mySidebar").style.width = "66px";
+    document.getElementById("main").style.marginLeft = "66px";
     this.mini = true;
   }
 }
